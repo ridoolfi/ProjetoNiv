@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poké</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <img src="./img/logo.png" id="logo" alt="logo Pokemon">
+    <div class="container">
+        <div class="formulario-name">
+            <form action="GET" class="form">
+                <input type="text" name="nameOrNumber" id="nameOrNumber" placeholder="Name or Number and press Enter">
+            </form>
+        </div>
+        <div class="name-and-number">
+            <h2>Pokedex Number:</h2>
+            <div class="number"><span class="numero"></span></div>
+            <h2>Pokemon Name:</h2>
+            <div class="name"><span class="nome"></span></div>
+        </div>
+        <div class="gifs">
+            <img src="" class="pokemonGif"></img>
+        </div>
+        <div class="buttons">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <script src="scrip/script.js"></script>
+</body>
+
+</html>
